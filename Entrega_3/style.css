@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Play&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: 'Play', sans-serif;
+}
+
+.header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20vh;
+        padding: 0 50px 0 20px;
+}
+
+.logo {
+        height: 90%;
+}
+
+.lista_links {
+        display: flex;
+        gap: 50px;
+        list-style: none;
+        font-size: 20px;
+}
+
+.link {
+        color: black;
+}
+
+.link:hover {
+        padding: 1rem;
+        background: rgb(252, 207, 9);
+}
+
+.info {
+        background: rgb(12, 199, 158);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        gap: 5rem;
+}
+
+.botones {
+        margin-top: 2rem;
+        display: flex;
+        gap: 25px;
+}
+
+.boton {
+        border: 5px solid black;
+        padding: 1rem 1.5rem;
+        border-radius: 50px;
+        font-size: 20px;
+}
+
+.learn {
+        background-color: white;
+        color: black;
+}
+
+.contact {
+        background: rgb(252, 207, 9);
+        color: black;
+}
+
+a {
+        text-decoration: none;
+}
+
+.info h1 {
+        max-width: 500px;
+        font-size: 50px;
+        color: black;
+}
+
+.info p {
+        max-width: 500px;
+        color: black;
+}
+
+.texto_botones {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-size: 20px;
+}
+
+.imagen {
+        width: 600px;
+        height: auto;
+        border-radius: 25px;
+}
+
+.descripcion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        background: rgb(77,5,147);
+}
+
+.desc_texto {
+        max-width: 750px;
+        font-size: 20px;
+        color: antiquewhite;
+}
+
+@media (max-width = 500px) {
+        .info {
+                flex-direction: column;
+        }
+}
